@@ -1,0 +1,33 @@
+.main-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-content: center;
+    width: $base-width;
+       
+    .header-hero-container{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        align-content: center;
+        background-color: #C5E6F9;
+        height: $base-height;
+        width: $base-width;
+        
+        justify-content: space-between;
+        }
+    
+        .main{
+            width:  $base-width;
+            height: calc(2 * $base-height);
+        }
+    
+        .footer{
+            display: flex;
+            justify-content: center;
+            background-color: pink;
+            height: 300px;
+            background-color: #C5E6F9;
+        }
+}
+

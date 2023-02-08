@@ -1,0 +1,47 @@
+.main-what-for{
+    display: flex;
+    background-color: white;
+    width: $base-width;
+    height: $base-height;
+    justify-content: center;    
+    align-items: center;
+
+    &-container{
+        width: 90%;
+        height: calc($base-height * 0.6);
+        display: grid;
+        grid-template-columns: repeat(8, 1fr);
+        padding-left: 7%;
+
+        &-cards{
+            grid-area: 2 / 1 / span 1 / span 4;
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: $gap;
+        }
+    }
+
+    &-h2p{
+        grid-area: 1 / 1 / 2 / span 4;
+        
+        // height: 40%;
+        h2{
+            padding-bottom: calc($gap / 2);
+            font-size: 2em;
+            font-weight: 700;
+        }
+        p{
+            padding-bottom: calc($gap / 2);
+            color: $second-letcol;
+        }
+    }
+
+    
+
+    &-img{
+        display: flex;
+        align-items: center;
+        grid-area: 1 / 5 / span 3 / span 4;
+        margin-left: $gap;
+    }
+}

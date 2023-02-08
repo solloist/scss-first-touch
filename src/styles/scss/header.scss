@@ -1,0 +1,35 @@
+.header{
+    display: flex;
+    height: 10%;
+    width: 80vw;
+    justify-content: space-between;
+    align-content: center;
+    flex-wrap: wrap;
+    &-pic{
+        max-width: 1.5em;
+        max-height: 1.5em;
+        align-items: center;
+    }
+    .nav-menu{
+        justify-content: space-around;
+        &-ul{
+            display: flex;
+            flex-direction: row;
+            &-li{
+                margin-left: calc($base-size / 4);
+                margin-right: calc($base-size / 4);
+                text-transform: uppercase;
+                color: $base-letcol;
+                font-size: 0.9em;
+            } 
+        }
+    }
+    .social-media{
+        justify-content: end;
+        &-img{
+            max-width: 1.5em;
+        max-height: 1.5em;
+        }
+    }
+   
+}

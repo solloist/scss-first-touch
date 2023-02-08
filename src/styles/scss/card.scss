@@ -1,0 +1,25 @@
+.card{
+    background-color: white;
+    padding: calc($base-size / 2); 
+    padding-left: 0;
+    display: flex;
+    justify-content: start;
+    img{
+        height: calc($base-size);
+        width: calc($base-size / 1.5);
+        float: left;
+        margin-right: calc($base-size / 4);
+    }
+
+    .card-text{
+        h3{
+            font-size: 1em;
+    
+        }
+        p{
+            font-size: 0.8em;
+            color: $second-letcol;
+        }
+    }
+    
+}

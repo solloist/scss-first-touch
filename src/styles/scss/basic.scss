@@ -1,0 +1,40 @@
+@font-face {
+  font-family: Gilroy;
+  src: url('../fonts/Gilroy-Bold.eot');
+  src: url('../fonts/Gilroy-Bold.eot') format('embedded-opentype'),
+    url('../fonts/Gilroy-Bold.woff') format('woff'),
+    url('../fonts/Gilroy-Bold.ttf') format('truetype');
+}
+
+body {
+  background-color: #C5E6F9;
+  font-family: Gilroy, sans-serif;
+}
+
+:root {
+    font-weight: 500;
+    font-size: 14px;
+    // color-scheme: light dark;
+    // color: rgba(255, 255, 255, 0.87);
+    // background-color: #242424;
+  
+   
+  }
+  $base-width: 100%;
+  $base-height: 100vh;
+  $base-size: 40px;
+  $base-letcol: #1A202C;
+  $second-letcol: #4A5568;
+  $hh-height: calc($base-height / 3);
+  $gap: calc($base-size / 2);
+
+  .button{
+            height: calc($hh-height * 0.2);
+            width: calc($base-size * 4);
+            border-radius: 1000px;
+            border: none;
+            font-size: 1.3em;
+            margin: calc($hh-height * 0.08);
+            font-weight: 700;
+            text-transform: uppercase;
+  }
